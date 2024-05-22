@@ -9,6 +9,7 @@ public class RestaurantService {
         for (Restaurant restaurant : restaurants) {
             if (restaurant.getName().equalsIgnoreCase(restaurantName)) {
                 return restaurant;
+
             }
         }
         throw new restaurantNotFoundException(restaurantName);

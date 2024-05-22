@@ -9,7 +9,6 @@ import static org.mockito.Mockito.spy;
 
 class RestaurantTest {
     Restaurant restaurant;
-    //REFACTOR ALL THE REPEATED LINES OF CODE
     @BeforeEach
     public void setUp() {
         LocalTime openingTime = LocalTime.parse("10:30:00");

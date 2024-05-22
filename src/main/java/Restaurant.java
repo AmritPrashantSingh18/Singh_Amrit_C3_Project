@@ -45,6 +45,7 @@ public class Restaurant {
 
         Item itemToBeRemoved = findItemByName(itemName);
         if (itemToBeRemoved == null)
+
             throw new itemNotFoundException(itemName);
 
         menu.remove(itemToBeRemoved);
